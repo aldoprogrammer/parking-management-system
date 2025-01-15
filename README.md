@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Parking Management System
+
+A Parking Management System built with **Next.js**, providing an intuitive user interface for managing parking data efficiently. This project includes role-based dashboards, authentication, and more.
+
+## Features
+
+- **Admin Dashboard**: Admins can view parking reports and manage system settings.
+- **Cashier Dashboard**: Cashiers can manage parking data, add new records, and generate reports.
+- **User Authentication**: Secure login for users with role-based access (Admin, Cashier).
+- **Vehicles Management**: Vehicle information can be retrieved and managed via a mock API.
+- **Responsive Design**: The UI is fully responsive and optimized for both desktop and mobile devices.
+
+## Endpoints Used
+
+The project integrates with the following mock API endpoints:
+
+- **Users Endpoint**: [https://67874e29c4a42c91610627a6.mockapi.io/api/users](https://67874e29c4a42c91610627a6.mockapi.io/api/users)
+  - Used for user authentication and role-based access control. It validates users against the stored username and password.
+  
+- **Vehicles Endpoint**: [https://67874e29c4a42c91610627a6.mockapi.io/api/vehicles](https://67874e29c4a42c91610627a6.mockapi.io/api/vehicles)
+  - Used to fetch and manage vehicle data, which includes adding, editing, or deleting vehicle information.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally, follow these steps:
+
+### 1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/aldoprogrammer/parking-management-system.git
+cd parking-management-system
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install the dependencies:
+You can install the dependencies using any package manager of your choice:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### Using npm:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Using yarn:
+```bash
+Copy code
+yarn install
+```
 
-## Learn More
+#### Using pnpm:
+````bash
+pnpm install
+````
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### 3. Run the development server:
+Once the dependencies are installed, run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Using npm:
+````bash
+npm run dev
+````
+#### Using yarn:
+````bash
+yarn dev
+````
 
-## Deploy on Vercel
+#### Using pnpm:
+````bash
+pnpm dev
+````
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will start the development server at http://localhost:3000. Open this URL in your browser to view the application.
