@@ -90,3 +90,8 @@ This will start the development server at http://localhost:3000. Open this URL i
         "id": "2"
     }
 ]
+
+## Protected Route 
+````bash
+/dashboard
+```` 
