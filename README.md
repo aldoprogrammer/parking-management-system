@@ -74,3 +74,19 @@ pnpm dev
 ````
 
 This will start the development server at http://localhost:3000. Open this URL in your browser to view the application.
+
+## Auth User For Testing
+ [
+    {
+        "username": "admin_aldo",
+        "password": "admin_aldo",
+        "role": "admin",
+        "id": "1"
+    },
+    {
+        "username": "cashier_aldo",
+        "password": "cashier_aldo",
+        "role": "cashier",
+        "id": "2"
+    }
+]
