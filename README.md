@@ -2,8 +2,11 @@
 
 A Parking Management System built with **Next.js**, providing an intuitive user interface for managing parking data efficiently. This project includes role-based dashboards, authentication, and more.
 
-#### Images / Screenshot of Web Aplication
+# Images / Screenshot of Web Aplication
 ![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 ## Features
 
 - **Admin Dashboard**: Admins can view parking reports and manage system settings.
